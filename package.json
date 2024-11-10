@@ -1,5 +1,8 @@
 {
   "name": "@samislam/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Islam Yamor",
   "version": "1.0.0",
   "main": "base.js",
