@@ -1,0 +1,9 @@
+{
+  "name": "@samislam/prettier-config",
+  "version": "1.0.0",
+  "main": "base.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier-plugin-jsdoc": "^1.3.0"
+  }
+}
