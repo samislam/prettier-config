@@ -4,7 +4,7 @@
     "access": "public"
   },
   "author": "Islam Yamor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "base.js",
   "license": "MIT",
   "homepage": "https://github.com/samislam/prettier-config.git#readme",
