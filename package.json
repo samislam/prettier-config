@@ -1,8 +1,17 @@
 {
   "name": "@samislam/prettier-config",
+  "author": "Islam Yamor",
   "version": "1.0.0",
   "main": "base.js",
   "license": "MIT",
+  "homepage": "https://github.com/samislam/prettier-config.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samislam/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samislam/prettier-config/issues"
+  },
   "devDependencies": {
     "prettier-plugin-jsdoc": "^1.3.0"
   }
