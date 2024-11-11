@@ -4,8 +4,8 @@ const samislamPrettierConfig = {
   tabWidth: 2,
   printWidth: 100,
   singleQuote: true,
-  trailingComma: "es5",
-  plugins: ["prettier-plugin-jsdoc"],
-};
+  trailingComma: 'es5',
+  plugins: ['prettier-plugin-jsdoc'],
+}
 
-module.exports = samislamPrettierConfig;
+module.exports = samislamPrettierConfig
