@@ -4,7 +4,7 @@
     "access": "public"
   },
   "author": "Islam Yamor",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "./base.js",
   "license": "MIT",
   "prettier": "./base.js",
