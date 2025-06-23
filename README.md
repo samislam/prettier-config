@@ -7,17 +7,17 @@ A custom Prettier configuration for consistent code formatting across projects.
 To install `samislamPrettierConfig` as a dependency in your project, run:
 
 ```
-$ npm install samislamPrettierConfig --save-dev
+$ npm install @samislam/prettier-config prettier prettier-plugin-jsdoc prettier-plugin-tailwindcss --save-dev
 ```
 Or if you're using Yarn:
 
 ```
-$ yarn add samislamPrettierConfig --dev
+$ yarn add @samislam/prettier-config prettier prettier-plugin-jsdoc prettier-plugin-tailwindcss --dev
 ```
 Or with pnpm:
 
 ```
-$ pnpm add -D samislamPrettierConfig
+$ pnpm add -D @samislam/prettier-config prettier prettier-plugin-jsdoc prettier-plugin-tailwindcss
 ```
 
 # Usage
