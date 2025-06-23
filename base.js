@@ -5,7 +5,7 @@ const samislamPrettierConfig = {
   printWidth: 100,
   singleQuote: true,
   trailingComma: 'es5',
-  plugins: ['./node_modules/prettier-plugin-jsdoc/dist/index.js'],
+  plugins: [require.resolve('prettier-plugin-jsdoc')],
 }
 
 module.exports = samislamPrettierConfig
