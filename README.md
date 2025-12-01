@@ -8,31 +8,42 @@ A custom Prettier configuration for consistent code formatting across projects.
 
 To install `samislamPrettierConfig` as a dependency in your project, run:
 
+```sh
+$ npm install --save-dev --save-exact @samislam/prettier-config prettier@3.7.3 @homer0/prettier-plugin-jsdoc prettier-plugin-tailwindcss
 ```
-$ npm install --save-dev --save-exact @samislam/prettier-config prettier@3.0.3 prettier-plugin-jsdoc prettier-plugin-tailwindcss
-```
+
 Or if you're using Yarn:
 
+```sh
+$ yarn add --dev --exact @samislam/prettier-config prettier@3.7.3 @homer0/prettier-plugin-jsdoc prettier-plugin-tailwindcss
 ```
-$ yarn add --dev --exact @samislam/prettier-config prettier@3.0.3 prettier-plugin-jsdoc prettier-plugin-tailwindcss
-```
+
 Or with pnpm:
 
+```sh
+$ pnpm add -D -E @samislam/prettier-config prettier@3.7.3 @homer0/prettier-plugin-jsdoc prettier-plugin-tailwindcss
 ```
-$ pnpm add -D -E @samislam/prettier-config prettier@3.0.3 prettier-plugin-jsdoc prettier-plugin-tailwindcss
+
+Or with bun:
+
+```sh
+$ bun add -D -E @samislam/prettier-config prettier@3.7.3 @homer0/prettier-plugin-jsdoc prettier-plugin-tailwindcss
 ```
 
 # Usage
 
 To use this Prettier configuration, add the following line in your project's package.json:
+
 ```json
 {
   "prettier": "@samislam/prettier-config"
 }
 ```
+
 Or, you can create a .prettierrc.js file in the root of your project with:
+
 ```js
-module.exports = require("@samislam/prettier-config");
+module.exports = require('@samislam/prettier-config')
 ```
 
 # Available configurations:
@@ -44,24 +55,26 @@ module.exports = require("@samislam/prettier-config");
 - **Print Width:** 100 characters (printWidth: 100).
 - **Single Quotes:** Enabled (singleQuote: true).
 - **Trailing Commas:** Enabled for ES5-compatible features (trailingComma: "es5").
-- **JSdoc Plugin:** Integrates prettier-plugin-jsdoc for formatting JSDoc comments.
+- **JSdoc Plugin:** Integrates @homer0/prettier-plugin-jsdoc for formatting JSDoc comments.
 
 **nextjs/react configuration**
+
 - same as the default configurations.
 - integrations with the `prettier-plugin-tailwindcss` plugin to automatically sort tailwindcss classes.
 
 You can use this configuration by including it in your package.json as follows:
+
 ```json
 {
   "prettier": "@samislam/prettier-config/next.js"
 }
 ```
+
 Or if you're using `.prettierrc.js` you can directly import it:
+
 ```js
-module.exports = require("@samislam/prettier-config/next");
+module.exports = require('@samislam/prettier-config/next')
 ```
-
-
 
 # License
 
